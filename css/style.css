@@ -1,0 +1,189 @@
+img[alt="www.000webhost.com"] {
+    display: none;
+}
+
+body {
+    font-family: 'Roboto';
+    line-height: 1.8em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Roboto Slab;
+    line-height: 1.2em;
+    color: #606060;
+}
+
+.tempdisable {
+    /* display: none; */
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.3em;
+    color: #373737;
+}
+
+h2 {
+    font-size: 3em;
+    padding: 0 0 0.5em;
+    font-family: 'Roboto';
+    text-align: right;
+    font-weight: 300;
+}
+
+section {
+    display: flex;
+    padding: 5em 1em 2em 1em;
+    justify-content: center;
+}
+
+.start {
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.start .container {
+    width: auto;
+}
+
+#app {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.start h1 {
+    text-align: right;
+}
+
+.scrollme {
+    display: flex;
+    justify-content: center;
+}
+
+.scrollme a {
+    height: 2em;
+}
+
+.square {
+    border: 1px solid #27ae60;
+    height: 2em;
+    width: 2em;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg);
+    animation: slowdive 3s ease-in-out infinite;
+}
+
+@keyframes slowdive {
+    50% {
+        height: 1.9em;
+        width: 1.9em;
+    }
+    90% {
+        height: 2em;
+        width: 2em;
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.title {
+    font-size: 2.4em;
+    font-weight: 500;
+    color: #423e3e;
+    line-height: 1.1em;
+    text-shadow: 0 0 2px #fff;
+    margin-bottom: 0.4em;
+}
+
+.case {
+    margin-left: 1em;
+    margin-top: 0.5em;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    margin-bottom: 2em;
+}
+
+.video video {
+    max-width: 100%;
+    /*! width: 500px; */
+    border-radius: 15px;
+    /* background: url(../img/poster.png); */
+    border: 5px solid whitesmoke;
+}
+
+body .lg-outer .lg-video {
+    max-height: 1080px;
+    height: 100vh;
+}
+
+video:hover {
+    /* background: url(../img/poster2.png); */
+}
+
+.presentation {
+    display: flex;
+    flex-wrap: wrap;
+    /*! justify-content: center; */
+}
+
+.video {
+    padding: 1em 20px 1em 0;
+    width: 47%;
+}
+
+.case .description {
+    font-weight: 400;
+    max-width: 65rem;
+    color: #1c1c1c;
+}
+
+.gallery a>* {
+    max-height: 35vh;
+    overflow: hidden;
+}
+
+.woimage {
+    color: #27ae60;
+    text-decoration: dashed;
+    border: 1px solid;
+    padding: 0.5em;
+    line-height: 3em;
+    border-radius: 5px;
+}
+
+br {
+    margin-bottom: 0.3em;
+}
+
+.gallery {
+    padding-top: 1em;
+}
+
+@media (max-width: 660px) {
+    .video {
+        width: 100%;
+        margin: 0;
+    }
+    video {
+        width: 100%;
+    }
+    .title {
+        font-size: 1.5em;
+        padding-bottom: 0.4em;
+    }
+}
