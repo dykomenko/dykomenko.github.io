@@ -157,13 +157,38 @@ video:hover {
     overflow: hidden;
 }
 
-.woimage {
+
+/* .woimage {
     color: #27ae60;
     text-decoration: dashed;
     border: 1px solid;
     padding: 0.5em;
     line-height: 3em;
     border-radius: 5px;
+} */
+
+.woimage {
+    background-image: linear-gradient(to right, #1D976C 0%, #93F9B9 51%, #1D976C 100%)
+}
+
+.woimage {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.woimage:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
 }
 
 br {
