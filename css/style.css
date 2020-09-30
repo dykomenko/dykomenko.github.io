@@ -17,10 +17,6 @@ h5 {
     color: #606060;
 }
 
-.tempdisable {
-    /* display: none; */
-}
-
 .container {
     max-width: 1600px;
     width: 100%;
@@ -129,10 +125,6 @@ section {
 body .lg-outer .lg-video {
     max-height: 1080px;
     height: 100vh;
-}
-
-video:hover {
-    /* background: url(../img/poster2.png); */
 }
 
 .presentation {
