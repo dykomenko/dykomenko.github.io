@@ -83,6 +83,10 @@ section {
     width: 100%;
 }
 
+.footerlink a:hover {
+    color: #50c28d;
+}
+
 .footerlink a {
     color: black;
     text-decoration: none;
