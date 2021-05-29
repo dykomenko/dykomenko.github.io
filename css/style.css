@@ -79,6 +79,17 @@ section {
     animation: slowdive 3s ease-in-out infinite;
 }
 
+.footerlink {
+    width: 100%;
+}
+
+.footerlink a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #50c28d;
+    text-align: center;
+}
+
 @keyframes slowdive {
     50% {
         height: 1.9em;
