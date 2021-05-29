@@ -82,6 +82,7 @@ section {
 .footerlink {
     width: 100%;
     text-align: center;
+    padding-bottom: 3em;
 }
 
 .footerlink a:hover {
