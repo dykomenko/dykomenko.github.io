@@ -152,6 +152,7 @@ body .lg-outer .lg-video {
 .video {
     padding: 1em 20px 1em 0;
     width: 47%;
+    max-height: 260px;
 }
 
 .case .description {
@@ -180,7 +181,7 @@ body .lg-outer .lg-video {
 }
 
 .woimage {
-    margin: 10px;
+    margin: 10px 10px 10px 0;
     padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
