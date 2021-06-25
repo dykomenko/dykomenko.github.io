@@ -155,6 +155,10 @@ body .lg-outer .lg-video {
     max-height: 260px;
 }
 
+.video video {
+    max-height: 100%;
+}
+
 .case .description {
     font-weight: 400;
     max-width: 65rem;
